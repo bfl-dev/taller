@@ -1,6 +1,143 @@
 *
 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    padding: 1%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .navbar
+{
+    background-color: 000000;
+    overflow: hidden;
+}
+
+.navbar a
+{
+    float:  left;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+
+}
+
+.icon img
+{
+    width: 1.5rem ;
+    height: rem;
+}
+
+/*no deja por alguna razon*/
+.img-container
+{
+    width: 100%;
+    background-image: url("assets/card-1.png");
+    background-color: black;
+}
+
+.img-container .text-container
+{
+    margin-left: 70%;
+
+    padding: 10px;
+    background-color: #fff3e3;
+}
+
+#second
+{
+    text-align: center;
+}
+
+.categories-container 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
+
+.catalog-container 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
+
+.category-box
+{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.category-container
+{
+    font-size: large;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.categories-container .category-box img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.product
+{
+    margin: auto;
+    text-align: left;
+    background-color: #f4f5f7;
+    padding: 
+}
+
+.price
+{
+    
+}
+
+.catalog-container .product img
+{
+    width: 99%;
+    height: 100%;
+}
+
+.footer
+{
+    display: flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 1%;
+}
+
+.footer-cascade{
+    display:inline;
+}
+
+.footer-cascade #company
+{
+    text-align: left;
+}
+
+.footer-cascade small
+{
+    text-align: left;
+    font-size: 0.5rem;
+}
+
+.catalog 
+{
+    text-align: center;
+    
+}
+.catalog p
+{
+    font-weight: bold;
+    text-align: center;
+    
+}
